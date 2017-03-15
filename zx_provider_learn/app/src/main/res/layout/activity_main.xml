@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.demo.zx_provider_learn.MainActivity">
+
+    <Button
+        android:onClick="add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加"/>
+    <Button
+        android:onClick="delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除"/>
+    <Button
+        android:onClick="update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改"/>
+    <Button
+        android:onClick="find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+
+    <Button
+        android:onClick="backupSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="备份短信"/>
+
+
+
+    <Button
+        android:onClick="findContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询联系人"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人名称"
+        />
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人电话"
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人邮箱"
+        />
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人地址"
+        />
+    <EditText
+        android:id="@+id/et_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人公司"
+        />
+
+    <Button
+        android:onClick="addContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加联系人"/>
+</LinearLayout>

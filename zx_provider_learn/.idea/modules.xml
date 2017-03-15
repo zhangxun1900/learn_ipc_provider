@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zx_backup_sms/zx_backup_sms.iml" filepath="$PROJECT_DIR$/zx_backup_sms/zx_backup_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zx_provider_caller/zx_provider_caller.iml" filepath="$PROJECT_DIR$/zx_provider_caller/zx_provider_caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zx_provider_learn.iml" filepath="$PROJECT_DIR$/zx_provider_learn.iml" />
+    </modules>
+  </component>
+</project>
